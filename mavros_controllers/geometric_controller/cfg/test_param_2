@@ -1,0 +1,35 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  Kp_x: 2.388
+  Kp_y: 2.388
+  Kp_z: 12.338
+  Kv_x: 4.577
+  Kv_y: 4.577
+  Kv_z: 14.129
+  attctrl_constant: 0.3
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      Kp_x: 2.388
+      Kp_y: 2.388
+      Kp_z: 12.338
+      Kv_x: 4.577
+      Kv_y: 4.577
+      Kv_z: 14.129
+      attctrl_constant: 0.3
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      max_acc: 7.0
+      name: Default
+      normalizedthrust_constant: 1.0
+      normalizedthrust_offset: 0.019
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+    state: []
+  max_acc: 7.0
+  normalizedthrust_constant: 1.0
+  normalizedthrust_offset: 0.019
+state: []

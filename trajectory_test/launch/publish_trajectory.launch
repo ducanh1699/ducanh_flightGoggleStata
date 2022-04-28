@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="trajectory_test" type="traj_planner_node" name="traj_planner" output="screen">
+        <param name="max_velocity" type="double" value="1.2"/>
+        <param name="max_acceleration" type="double" value="0.6"/>
+        <param name="max_angular_velocity" type="double" value="0.1"/>
+        <param name="max_angular_acceleration" type="double" value="0.1"/>
+    </node>
+
+    <node pkg="trajectory_test" type="traj_sampler_node" name="traj_sampler" output="screen">
+        <param name="sample_time" type="double" value="0.02"/>
+    </node>
+
+</launch>
